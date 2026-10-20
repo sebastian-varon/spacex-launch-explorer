@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "101394889-lab-test2-comp3133": {
+    "spacex-launch-explorer": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "101394889-lab-test2-comp3133:build:production"
+              "buildTarget": "spacex-launch-explorer:build:production"
             },
             "development": {
-              "buildTarget": "101394889-lab-test2-comp3133:build:development"
+              "buildTarget": "spacex-launch-explorer:build:development"
             }
           },
           "defaultConfiguration": "development"
